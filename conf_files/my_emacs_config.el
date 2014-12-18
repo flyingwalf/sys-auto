@@ -20,6 +20,9 @@
 (setq show-paren-delay 0)
 (show-paren-mode 1)
 
+;;Split the window vertically by default
+(setq split-height-threshold nil)
+(setq split-width-threshold 0)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
