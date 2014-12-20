@@ -4,6 +4,7 @@
 (require 'linum)
 (setq linum-format "%3d ")
 (add-hook 'find-file-hooks (lambda () (linum-mode 1)))
+(add-hook 'ibuffer-hooks (lambda () (linum-mode 1)))
 
 ;;Set linux default tab width
 (setq-default c-default-style "linux"
